@@ -1,6 +1,7 @@
+#seamless
 Forked from https://bitbucket.org/tebeka/seamless
 
-`seameless` is a TCP proxy that allow you to deploy new code then switch traffic
+**seamless** is a TCP proxy that allow you to deploy new code then switch traffic
 to it without downtime.
 
 It does "round robin" between the list of current active backends.
@@ -21,7 +22,7 @@ Switching server is done with HTTP interface with the following API:
 
 Process
 =======
-* Start `seamleass` with list of active backends::
+* Start **seamless** with list of active backends::
 
     seamless 8080 localhost:4444
 * Direct all traffic to port 8080 on local machine.
@@ -47,7 +48,7 @@ Or if you have a Go development environment, you can
 
 ::
 
-    go get bitbucket.org/tebeka/seamless
+    go get github.com/juliendsv/seamless
 
 Contact
 =======
